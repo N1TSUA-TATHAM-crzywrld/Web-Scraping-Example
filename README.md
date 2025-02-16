@@ -1,5 +1,5 @@
 <h1 align="center"> Web-Scraping-Example </h1>
-<h1 align="center"> Sothebys Realty Web Scraper </h1>
+<h2 align="center"> Sothebys Realty Web Scraper </h2>
 
 ## 📋🥸 **About This Project**
 
