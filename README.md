@@ -45,7 +45,7 @@ python sothebys_scraper.py
 
 ---
 
-## 📜 How It Works
+<h2 align="center"> 📜 How It Works </h1>
 The scraper follows these steps:
 
 ### 1️⃣ **Initialize WebDriver**
