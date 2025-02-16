@@ -1,5 +1,5 @@
-# Web-Scraping-Example
-# Sothebys Realty Web Scraper
+<h1 align="center"> Web-Scraping-Example </h1>
+<h1 align="center"> Sothebys Realty Web Scraper </h1>
 
 ## 📌 Overview
 This is a **web scraper** built using **Python, Selenium, and BeautifulSoup** to extract real estate agent information from the **Sothebys Realty Seattle** website. The scraper navigates through multiple pages, extracts agent details (name, position, company, address, contact information), and saves them in **structured JSON format**.
