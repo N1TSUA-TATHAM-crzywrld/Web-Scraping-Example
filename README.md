@@ -3,8 +3,9 @@
 
 ## 📋🥸 **About This Project**
 
-    This is a simple **web scraper** that collects real estate agent information from the **Sotheby’s Realty Seattle website**. It grabs details like **names**,         **job titles**, **company info**, **addresses**, and **contact numbers** and saves them in an organized format.  
-    💡 **Why I Made This**: I saw a similar project in a job posting on UpWork and thought it would be a fun way to practice web scraping!
+This is a simple **web scraper** that collects real estate agent information from the **Sotheby’s Realty Seattle website**. It grabs details like **names**,      **job titles**, **company info**, **addresses**, and **contact numbers** and saves them in an organized format.  
+    
+💡 **Why I Made This**: I saw a similar project in a job posting on UpWork and thought it would be a fun way to practice web scraping!
 ---
 ## 📌 Overview
 This is a **web scraper** built using **Python, Selenium, and BeautifulSoup** to extract real estate agent information from the **Sothebys Realty Seattle** website. The scraper navigates through multiple pages, extracts agent details (name, position, company, address, contact information), and saves them in **structured JSON format**.
