@@ -174,7 +174,7 @@ After running the script, `output.json` will look like this:
 ---
 
 ## 📜 License
-This project is for educational purposes. Feel free to modify and use it!
+This project is for educational purposes. Do whatever you want with it!
 
 ---
 
@@ -186,6 +186,5 @@ Found a bug? Want to improve the script? Open a pull request!
 ## 📞 Contact
 💬 Have questions? Reach out!
 
-📧 **Email:** your.email@example.com  
-🐙 **GitHub:** [your-github-profile](https://github.com/your-github-profile)
+📧 **Email:** atatham45@gmail.com  
 
