@@ -12,6 +12,7 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+#   Changes to the website caused this code to fail. Fixed code is in new file.
 
 #   A random project that crawls the Sothebysrealty Seattle location's website ----->
 #   Scrapes and saves every real esate agents information.
@@ -191,3 +192,4 @@ if __name__ == "__main__":
 #       del ids
 #       del agents
 #       break
+
