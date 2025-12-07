@@ -22,9 +22,8 @@ sleep = time.sleep
 def initialize_webdriver(driver_path):
     service = Service(driver_path)
     options = EdgeOptions()
-    #options.add_argument("--headless")
+    options.add_argument("--headless")
     return webdriver.Edge(service=service, options=options)
-
 
 def references(html):
     return BeautifulSoup(html, 'html5lib')
@@ -57,8 +56,7 @@ def new_page(browser, html):
         for char in clicked:
             if char.isdigit():
                 page_numbers.append(int(char))
-
-    return pages
+        return pages
 
 
 def page_count(pages):
@@ -84,6 +82,7 @@ def extract_data(browser):
     
     for match in info_IDs:
         ids = [line.strip() for line in match.get_text(separator="\n").split("\n") if line.strip()]
+        print(info_IDs)
         
         if not ids:
             continue
@@ -96,7 +95,7 @@ def extract_data(browser):
         }
 
         contact_info = {}
-        for line in ids:
+        for line in info_IDs:
             if "M:" in line:
                 contact_info["CONTACT M"] = line.split("M:")[1].strip()
             if "O:" in line:
